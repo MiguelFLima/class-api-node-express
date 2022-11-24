@@ -1,17 +1,21 @@
 {
-  "name": "project",
+  "name": "node-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API made with the course im taking",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Antonio Miguel",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^8.28.0",
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.6"
   }
 }
